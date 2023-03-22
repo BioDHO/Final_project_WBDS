@@ -75,7 +75,7 @@ for i, accession in enumerate(genomes["WGS"]):
 
 Se cargaron los archivos gbk al software en linea [IslandViewer4](https://www.pathogenomics.sfu.ca/islandviewer), se detectaron las islas simbióticas. Un ejemplo gráfico del resultado obtenido en IslandViewer se observa en la siguiente figura.
 
-<img src="Final_project_WBDS/results/IslandViewer_detection.png" style="zoom:33%;" />
+<img src="results/IslandViewer_detection.png" style="zoom:33%;" />
 
 
 
@@ -123,7 +123,7 @@ clinker results/*.gbk -p Bradys_IS.html -mu results/Bradys_IS.matrix
 
 El resultado obtenido se observa a continuación:
 
-<img src="Final_project_WBDS/results/clinker_result.jpg" alt="clinker_result" style="zoom:33%;" />
+<img src="results/clinker_result.jpg" alt="clinker_result" style="zoom:33%;" />
 
 
 
