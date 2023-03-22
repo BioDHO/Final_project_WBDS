@@ -2,7 +2,7 @@
 Repositorio del proyecto final del Camp de WBDS
 
 ######  Uno de los descubrimientos destacados de la genómica bacteriana son las islas genómicas. Su papel en la patogenicidad es conocido en muchas bacterias, sin embargo, las islas simbióticas se han estudiada en menor medida. Las islas de simbiosis pueden transferirse entre bacterias relacionadas, se insertan en genes de ARNt específicos y tiene un contenido de GC más bajo que el resto de los genes cromosómicos. 
-Las integrasas son una clave para la inserción de las islas simbióticas, reconocer si son específicas o no, es muy importante para entender la evolución de las islas. Recientemente [se publicaron](https://www.mdpi.com/1424-2818/14/7/518) nuevas genomospecies del género *Bradyrhizobium* y se sabe que contienen genes característicos de la simbiosis dentro de probables islas simbióticas.
+######  Las integrasas son una clave para la inserción de las islas simbióticas, reconocer si son específicas o no, es muy importante para entender la evolución de las islas. Recientemente [se publicaron](https://www.mdpi.com/1424-2818/14/7/518) nuevas genomospecies del género *Bradyrhizobium* y se sabe que contienen genes característicos de la simbiosis dentro de probables islas simbióticas.
 
 ######  El objetivo de este proyecto es identificar las islas de simbiosis y la relación entre las integrasas que forman parte de estas.   
 
