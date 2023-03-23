@@ -1,7 +1,7 @@
-LOCUS       unknown               714401 bp    dna              UNK 01-JAN-1980
-DEFINITION  .
-ACCESSION   unknown
-VERSION     unknown
+LOCUS       JANADO010000000       714401 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Bradyrhizobium sp. CCGB12, whole genome shotgun sequencing project.
+ACCESSION   JANADO000000000
+VERSION     JANADO000000000.1
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .

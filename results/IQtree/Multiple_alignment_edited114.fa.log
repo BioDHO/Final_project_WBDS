@@ -1,0 +1,450 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s Multiple_alignment_edited114.fa -m TEST -bb 1000 -alrt 1000
+Seed:    624075 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 23 01:20:39 2023
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Multiple_alignment_edited114.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 79 sequences with 114 columns, 114 distinct patterns
+114 parsimony-informative, 0 singleton sites, 0 constant sites
+WARNING: Some sequence names are changed as follows:
+CCGE-LA001,_BCCGELA001_RS30055_431645_432639_integrase_Unknown -> CCGE-LA001__BCCGELA001_RS30055_431645_432639_integrase_Unknown
+CCGE-LA001,_BCCGELA001_RS30845_618606_619212_integrase -> CCGE-LA001__BCCGELA001_RS30845_618606_619212_integrase
+CCGB12,_NLM27_RS26595_483997_484351_DDE-type -> CCGB12__NLM27_RS26595_483997_484351_DDE-type
+CCGE-LA001,_BCCGELA001_RS30140_451937_452521_integrase_Unknown -> CCGE-LA001__BCCGELA001_RS30140_451937_452521_integrase_Unknown
+CCGB12,_NLM27_RS25890_308219_308399_integrase_Unknown -> CCGB12__NLM27_RS25890_308219_308399_integrase_Unknown
+CCGB12,_NLM27_RS25930_320262_321034_integrase -> CCGB12__NLM27_RS25930_320262_321034_integrase
+CCGB12,_NLM27_RS25035_70281_70965_tyrosine-type -> CCGB12__NLM27_RS25035_70281_70965_tyrosine-type
+CCGE-LA001,_BCCGELA001_RS30555_539631_540858_phage -> CCGE-LA001__BCCGELA001_RS30555_539631_540858_phage
+CCGB12,_NLM27_RS26000_334920_335490_DDE-type -> CCGB12__NLM27_RS26000_334920_335490_DDE-type
+CCGB12,_NLM27_RS26425_433549_434116_integrase -> CCGB12__NLM27_RS26425_433549_434116_integrase
+
+                                                                 Gap/Ambiguity  Composition  p-value
+   1  CCGB01_NLM25_RS08180_218993_219453_integrase                       0.00%    passed     82.48%
+   2  CCGB20_NLM15_RS07775_215467_215927_integrase                       0.00%    passed     82.48%
+   3  CCGB01_NLM25_RS07365_25189_26238_integrase                         0.00%    passed     33.42%
+   4  CCGB20_NLM15_RS06975_23307_24356_integrase                         0.00%    passed     33.42%
+   5  CCGE-LA001__BCCGELA001_RS30055_431645_432639_integrase_Unknown     0.00%    passed     83.18%
+   6  CCGUVB23_NLN62_RS08825_240578_241487_tyrosine-type                 0.00%    passed     67.47%
+   7  CCGB20_NLM15_RS08455_373103_374283_tyrosine-type                   0.00%    passed     43.45%
+   8  CCGUVB14_NLM32_RS45755_673014_673641_tyrosine-type                 0.00%    failed      3.89%
+   9  CCGUVB14_NLM32_RS45770_777262_777889_tyrosine-type                 0.00%    failed      3.89%
+  10  CCGUVB23_NLN62_RS10955_728555_729791_tyrosine-type                 0.00%    passed     46.86%
+  11  CCGE-LA001__BCCGELA001_RS30845_618606_619212_integrase             0.00%    passed     87.69%
+  12  CCGB12__NLM27_RS26595_483997_484351_DDE-type                       0.00%    passed     17.42%
+  13  CCGE-LA001__BCCGELA001_RS30140_451937_452521_integrase_Unknown     0.00%    passed     78.66%
+  14  CCGUVB23_NLN62_RS10945_726628_727627_tyrosine-type                 0.00%    passed     27.23%
+  15  CCGUVB14_NLM32_RS08120_539164_540382_tyrosine-type                 0.00%    passed     62.19%
+  16  CCGUVB23_NLN62_RS08145_105636_106653_integrase                     0.00%    passed     29.09%
+  17  CCGUVB1N3_NLM33_RS37260_629390_630620_tyrosine-type                0.00%    passed      9.87%
+  18  CCGUVB4N_NLM31_RS07455_562822_563578_tyrosine-type                 0.00%    passed     76.16%
+  19  CCGUVB4N_NLM31_RS07460_563574_564537_tyrosine-type                 0.00%    passed     73.53%
+  20  CCGUVB23_NLN62_RS08470_170717_171602_tyrosine-type                 0.00%    passed     80.52%
+  21  CCGUVB4N_NLM31_RS07480_566885_567422_site-specific                 0.00%    passed     78.45%
+  22  CCGUVB14_NLM32_RS08595_633753_634590_site-specific                 0.00%    passed     96.96%
+  23  CCGUVB4N_NLM31_RS07475_566538_566859_tyrosine-type                 0.00%    passed     34.15%
+  24  CCGUVB14_NLM32_RS06320_117514_117889_tyrosine-type                 0.00%    passed     79.47%
+  25  CCGB12__NLM27_RS25890_308219_308399_integrase_Unknown              0.00%    passed     41.26%
+  26  CCGUVB14_NLM32_RS08960_719432_720293_tyrosine-type                 0.00%    passed     29.81%
+  27  CCGUVB14_NLM32_RS08175_549991_550480_tyrosine-type                 0.00%    passed     29.09%
+  28  CCGUVB14_NLM32_RS09290_788153_788642_tyrosine-type                 0.00%    passed     29.09%
+  29  CCGUVB14_NLM32_RS08170_549641_549995_phage                         0.00%    passed     68.26%
+  30  CCGUVB14_NLM32_RS09295_788638_788992_phage                         0.00%    passed     68.26%
+  31  CCGUVB14_NLM32_RS07050_276747_277608_tyrosine-type                 0.00%    passed     68.26%
+  32  CCGUVB14_NLM32_RS07965_509527_510388_tyrosine-type                 0.00%    passed     68.26%
+  33  CCGUVB14_NLM32_RS10020_957936_958797_tyrosine-type                 0.00%    passed     68.26%
+  34  CCGUVB1N3_NLM33_RS36290_401098_401959_tyrosine-type                0.00%    passed     65.21%
+  35  CCGUVB4N_NLM31_RS07465_564529_565540_tyrosine-type                 0.00%    passed     83.45%
+  36  CCGUVB14_NLM32_RS08130_541352_542378_tyrosine-type                 0.00%    passed     67.86%
+  37  CCGUVB23_NLN62_RS07885_38502_38703_site-specific                   0.00%    passed     94.21%
+  38  CCGUVB1N3_NLM33_RS38720_939836_940235_tyrosine-type                5.26%    passed     96.74%
+  39  CCGUVB23_NLN62_RS07890_39013_39478_tyrosine-type                   0.00%    passed     87.25%
+  40  CCGUVB14_NLM32_RS08895_706576_707581_tyrosine-type                 0.00%    passed     14.35%
+  41  CCGUVB1N3_NLM33_RS37250_627028_628033_tyrosine-type                0.00%    passed     19.92%
+  42  CCGB12__NLM27_RS25930_320262_321034_integrase                      0.00%    passed     78.61%
+  43  CCGUVB1N3_NLM33_RS34480_4630_5968_integrase                        0.00%    passed     12.44%
+  44  CCGB12__NLM27_RS25035_70281_70965_tyrosine-type                    0.00%    passed     36.68%
+  45  CCGUVB14_NLM32_RS08745_674003_675275_tyrosine-type                 0.00%    passed     62.69%
+  46  CCGUVB14_NLM32_RS09250_778251_779523_tyrosine-type                 0.00%    passed     62.69%
+  47  CCGUVB14_NLM32_RS08600_634745_634901_integrase                     0.00%    passed     96.30%
+  48  CCGUVB4N_NLM31_RS09720_1078829_1078982_integrase                   0.00%    passed     96.30%
+  49  CCGUVB14_NLM32_RS10865_1143506_1143659_integrase                   0.00%    passed     93.44%
+  50  CCGUVB4N_NLM31_RS09880_1110534_1110687_integrase                   0.00%    passed     91.41%
+  51  CCGB01_NLM25_RS08515_293897_294399_DDE-type                        0.00%    passed     55.65%
+  52  CCGB20_NLM15_RS08090_286798_287300_DDE-type                        0.00%    passed     55.65%
+  53  CCGB01_NLM25_RS08420_269568_269826_integrase                       0.00%    passed     40.44%
+  54  CCGB20_NLM15_RS07985_262487_262745_integrase                       0.00%    passed     27.96%
+  55  CCGE-LA001__BCCGELA001_RS30555_539631_540858_phage                 0.00%    passed     11.19%
+  56  CCGUVB23_NLN62_RS08455_167100_167466_site-specific                 0.00%    passed     83.18%
+  57  CCGUVB14_NLM32_RS06605_175153_175822_tyrosine-type                 0.00%    passed     97.97%
+  58  CCGUVB4N_NLM31_RS05915_186294_186963_tyrosine-type                 0.00%    passed     97.97%
+  59  CCGUVB23_NLN62_RS12515_1087755_1089918_integrase_WP_254108995.1    0.00%    passed     55.41%
+  60  CCGUVB1N3_NLM33_RS38395_871871_872075_integrase_Unknown            0.00%    passed     73.95%
+  61  CCGUVB23_NLN62_RS08870_248950_249331_integrase_Unknown             0.00%    passed     37.71%
+  62  CCGUVB1N3_NLM33_RS38545_902354_902858_integrase                    0.00%    passed     36.08%
+  63  CCGUVB1N3_NLM33_RS36125_358732_359449_tyrosine-type                0.00%    passed     26.73%
+  64  CCGB12__NLM27_RS26000_334920_335490_DDE-type                       0.00%    passed     15.81%
+  65  CCGUVB23_NLN62_RS12525_1091695_1093117_site-specific               0.00%    passed     30.17%
+  66  CCGUVB14_NLM32_RS08125_540378_541356_tyrosine-type                 0.00%    passed     56.09%
+  67  CCGUVB1N3_NLM33_RS37255_628029_629394_tyrosine-type                0.00%    passed     98.27%
+  68  CCGUVB14_NLM32_RS07405_365125_365855_DDE-type                      0.00%    passed     33.96%
+  69  CCGUVB4N_NLM31_RS06685_367985_368715_DDE-type                      0.00%    passed     33.96%
+  70  CCGUVB14_NLM32_RS07415_367246_367489_integrase                     0.00%    passed     66.43%
+  71  CCGUVB4N_NLM31_RS06695_370105_370348_integrase                     0.00%    passed     66.43%
+  72  CCGUVB23_NLN62_RS08070_78556_78955_integrase                       0.00%    passed      7.57%
+  73  CCGUVB14_NLM32_RS08735_672013_673018_tyrosine-type                 0.00%    passed     77.12%
+  74  CCGUVB14_NLM32_RS09240_776261_777266_tyrosine-type                 0.00%    passed     77.12%
+  75  CCGUVB23_NLN62_RS10950_727623_728559_tyrosine-type                 0.00%    passed     69.06%
+  76  CCGB12__NLM27_RS26425_433549_434116_integrase                      0.00%    passed     33.98%
+  77  CCGUVB1N3_NLM33_RS35325_168005_169772_site-specific                0.00%    passed     36.89%
+  78  CCGUVB4N_NLM31_RS42965_562414_562546_site-specific                21.05%    passed     72.99%
+  79  CCGUVB1N3_NLM33_RS35330_169764_170907_tyrosine-type                0.00%    passed     98.57%
+****  TOTAL                                                              0.33%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: CCGB20_NLM15_RS07775_215467_215927_integrase is identical to CCGB01_NLM25_RS08180_218993_219453_integrase but kept for subsequent analysis
+NOTE: CCGB20_NLM15_RS06975_23307_24356_integrase is identical to CCGB01_NLM25_RS07365_25189_26238_integrase but kept for subsequent analysis
+NOTE: CCGUVB14_NLM32_RS45770_777262_777889_tyrosine-type is identical to CCGUVB14_NLM32_RS45755_673014_673641_tyrosine-type but kept for subsequent analysis
+NOTE: CCGUVB14_NLM32_RS09290_788153_788642_tyrosine-type is identical to CCGUVB14_NLM32_RS08175_549991_550480_tyrosine-type but kept for subsequent analysis
+NOTE: CCGUVB14_NLM32_RS09295_788638_788992_phage is identical to CCGUVB14_NLM32_RS08170_549641_549995_phage but kept for subsequent analysis
+NOTE: CCGUVB14_NLM32_RS09250_778251_779523_tyrosine-type is identical to CCGUVB14_NLM32_RS08745_674003_675275_tyrosine-type but kept for subsequent analysis
+NOTE: CCGUVB4N_NLM31_RS09720_1078829_1078982_integrase is identical to CCGUVB14_NLM32_RS08600_634745_634901_integrase but kept for subsequent analysis
+NOTE: CCGB20_NLM15_RS08090_286798_287300_DDE-type is identical to CCGB01_NLM25_RS08515_293897_294399_DDE-type but kept for subsequent analysis
+NOTE: CCGUVB4N_NLM31_RS05915_186294_186963_tyrosine-type is identical to CCGUVB14_NLM32_RS06605_175153_175822_tyrosine-type but kept for subsequent analysis
+NOTE: CCGUVB4N_NLM31_RS06685_367985_368715_DDE-type is identical to CCGUVB14_NLM32_RS07405_365125_365855_DDE-type but kept for subsequent analysis
+NOTE: CCGUVB4N_NLM31_RS06695_370105_370348_integrase is identical to CCGUVB14_NLM32_RS07415_367246_367489_integrase but kept for subsequent analysis
+NOTE: CCGUVB14_NLM32_RS09240_776261_777266_tyrosine-type is identical to CCGUVB14_NLM32_RS08735_672013_673018_tyrosine-type but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: CCGUVB14_NLM32_RS07050_276747_277608_tyrosine-type (identical to CCGUVB14_NLM32_RS08170_549641_549995_phage) is ignored but added at the end
+NOTE: CCGUVB14_NLM32_RS07965_509527_510388_tyrosine-type (identical to CCGUVB14_NLM32_RS08170_549641_549995_phage) is ignored but added at the end
+NOTE: CCGUVB14_NLM32_RS10020_957936_958797_tyrosine-type (identical to CCGUVB14_NLM32_RS08170_549641_549995_phage) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to Multiple_alignment_edited114.fa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 114) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            8988.508     149 18275.017    62975.017    18682.710
+  2  JC+ASC        8988.382     149 18274.765    62974.765    18682.458
+  3  JC+G4         8988.374     150 18276.747    63576.747    18687.177
+  4  JC+ASC+G4     8988.339     150 18276.678    63576.678    18687.107
+  5  F81+F         8897.088     152 18098.175    64610.175    18514.077
+  6  F81+F+ASC     8897.025     152 18098.050    64610.050    18513.952
+  7  F81+F+G4      8897.005     153 18100.010    65224.010    18518.648
+  8  F81+F+ASC+G4  8896.991     153 18099.981    65223.981    18518.619
+  9  K2P           8987.124     150 18274.247    63574.247    18684.677
+ 10  K2P+ASC       8987.098     150 18274.196    63574.196    18684.626
+ 11  K2P+G4        8987.122     151 18276.244    64180.244    18689.410
+ 12  K2P+ASC+G4    8987.116     151 18276.232    64180.232    18689.398
+ 13  HKY+F         8896.177     153 18098.353    65222.353    18516.992
+ 14  HKY+F+ASC     8896.153     153 18098.307    65222.307    18516.945
+ 15  HKY+F+G4      8896.135     154 18100.269    65840.269    18521.644
+ 16  HKY+F+ASC+G4  8896.122     154 18100.244    65840.244    18521.619
+ 17  TNe           8987.060     151 18276.119    64180.119    18689.285
+ 18  TNe+ASC       8987.047     151 18276.094    64180.094    18689.259
+ 19  TNe+G4        8987.075     152 18278.150    64790.150    18694.052
+ 20  TNe+ASC+G4    8987.070     152 18278.140    64790.140    18694.042
+ 21  TN+F          8896.123     154 18100.246    65840.246    18521.620
+ 22  TN+F+ASC      8896.101     154 18100.202    65840.202    18521.576
+ 23  TN+F+G4       8896.085     155 18102.170    66462.170    18526.280
+ 24  TN+F+ASC+G4   8896.074     155 18102.148    66462.148    18526.259
+ 25  K3P           8968.299     151 18238.598    64142.598    18651.764
+ 26  K3P+ASC       8968.196     151 18238.391    64142.391    18651.557
+ 27  K3P+G4        8968.168     152 18240.336    64752.336    18656.238
+ 28  K3P+ASC+G4    8968.142     152 18240.283    64752.283    18656.185
+ 29  K3Pu+F        8896.370     154 18100.739    65840.739    18522.114
+ 30  K3Pu+F+ASC    8896.290     154 18100.580    65840.580    18521.955
+ 31  K3Pu+F+G4     8896.248     155 18102.496    66462.496    18526.607
+ 32  K3Pu+F+ASC+G4 8896.221     155 18102.441    66462.441    18526.552
+ 33  TPM2+F        8896.441     154 18100.882    65840.882    18522.256
+ 34  TPM2+F+ASC    8896.385     154 18100.770    65840.770    18522.144
+ 35  TPM2+F+G4     8896.315     155 18102.629    66462.629    18526.740
+ 36  TPM2+F+ASC+G4 8896.245     155 18102.490    66462.490    18526.600
+ 37  TPM2u+F       8896.194     154 18100.389    65840.389    18521.763
+ 38  TPM2u+F+ASC   8896.157     154 18100.314    65840.314    18521.688
+ 39  TPM2u+F+G4    8896.125     155 18102.249    66462.249    18526.360
+ 40  TPM2u+F+ASC+G4 8896.108     155 18102.217    66462.217    18526.328
+ 41  TPM3+F        8896.114     154 18100.228    65840.228    18521.602
+ 42  TPM3+F+ASC    8896.106     154 18100.212    65840.212    18521.586
+ 43  TPM3+F+G4     8896.090     155 18102.180    66462.180    18526.291
+ 44  TPM3+F+ASC+G4 8896.083     155 18102.166    66462.166    18526.276
+ 45  TPM3u+F       8896.096     154 18100.191    65840.191    18521.566
+ 46  TPM3u+F+ASC   8896.094     154 18100.188    65840.188    18521.562
+ 47  TPM3u+F+G4    8896.075     155 18102.150    66462.150    18526.261
+ 48  TPM3u+F+ASC+G4 8896.070     155 18102.140    66462.140    18526.251
+ 49  TIMe          8968.236     152 18240.473    64752.473    18656.375
+ 50  TIMe+ASC      8968.113     152 18240.227    64752.227    18656.129
+ 51  TIMe+G4       8968.070     153 18242.139    65366.139    18660.778
+ 52  TIMe+ASC+G4   8968.042     153 18242.084    65366.084    18660.722
+ 53  TIM+F         8897.078     155 18104.156    66464.156    18528.267
+ 54  TIM+F+ASC     8896.941     155 18103.883    66463.883    18527.993
+ 55  TIM+F+G4      8896.852     156 18105.704    67089.704    18532.551
+ 56  TIM+F+ASC+G4  8896.799     156 18105.599    67089.599    18532.446
+ 57  TIM2e         8982.666     152 18269.332    64781.332    18685.234
+ 58  TIM2e+ASC     8982.601     152 18269.203    64781.203    18685.105
+ 59  TIM2e+G4      8982.551     153 18271.103    65395.103    18689.741
+ 60  TIM2e+ASC+G4  8982.499     153 18270.998    65394.998    18689.637
+ 61  TIM2+F        8896.128     155 18102.255    66462.255    18526.366
+ 62  TIM2+F+ASC    8896.101     155 18102.201    66462.201    18526.312
+ 63  TIM2+F+G4     8896.084     156 18104.167    67088.167    18531.014
+ 64  TIM2+F+ASC+G4 8896.072     156 18104.145    67088.145    18530.992
+ 65  TIM3e         8982.251     152 18268.502    64780.502    18684.405
+ 66  TIM3e+ASC     8982.177     152 18268.353    64780.353    18684.255
+ 67  TIM3e+G4      8982.152     153 18270.304    65394.304    18688.943
+ 68  TIM3e+ASC+G4  8982.113     153 18270.227    65394.227    18688.865
+ 69  TIM3+F        8896.102     155 18102.203    66462.203    18526.314
+ 70  TIM3+F+ASC    8896.082     155 18102.163    66462.163    18526.274
+ 71  TIM3+F+G4     8896.067     156 18104.134    67088.134    18530.981
+ 72  TIM3+F+ASC+G4 8896.057     156 18104.114    67088.114    18530.961
+ 73  TVMe          8961.683     153 18229.366    65353.366    18648.004
+ 74  TVMe+ASC      8961.657     153 18229.313    65353.313    18647.952
+ 75  TVMe+G4       8961.636     154 18231.272    65971.272    18652.647
+ 76  TVMe+ASC+G4   8961.624     154 18231.249    65971.249    18652.623
+ 77  TVM+F         8901.575     156 18115.150    67099.150    18541.997
+ 78  TVM+F+ASC     8901.523     156 18115.046    67099.046    18541.893
+ 79  TVM+F+G4      8901.489     157 18116.979    67728.979    18546.562
+ 80  TVM+F+ASC+G4  8901.456     157 18116.912    67728.912    18546.495
+ 81  SYM           8962.055     154 18232.110    65972.110    18653.485
+ 82  SYM+ASC       8961.764     154 18231.527    65971.527    18652.902
+ 83  SYM+G4        8961.601     155 18233.202    66593.202    18657.313
+ 84  SYM+ASC+G4    8961.495     155 18232.989    66592.989    18657.100
+ 85  GTR+F         8901.316     157 18116.632    67728.632    18546.215
+ 86  GTR+F+ASC     8901.234     157 18116.469    67728.469    18546.052
+ 87  GTR+F+G4      8901.185     158 18118.371    68362.371    18550.690
+ 88  GTR+F+ASC+G4  8901.155     158 18118.310    68362.310    18550.629
+Akaike Information Criterion:           F81+F+ASC
+Corrected Akaike Information Criterion: JC+ASC
+Bayesian Information Criterion:         F81+F+ASC
+Best-fit model: F81+F+ASC chosen according to BIC
+
+All model information printed to Multiple_alignment_edited114.fa.model.gz
+CPU time for ModelFinder: 1.264 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 1.497 seconds (0h:0m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 624075)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8897.025
+Optimal log-likelihood: -8896.999
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.193  C: 0.308  G: 0.301  T: 0.198
+Parameters optimization took 1 rounds (0.002 sec)
+Computing ML distances based on estimated model parameters... 0.036 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.043 seconds
+Log-likelihood of BIONJ tree: -8878.564
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.469 second
+Computing log-likelihood of 98 initial trees ... 0.374 seconds
+Current best score: -8878.564
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8873.733
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -8865.075
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -8861.534
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -8856.774
+Iteration 10 / LogL: -8866.880 / Time: 0h:0m:3s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -8854.565
+Iteration 20 / LogL: -8868.316 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -8854.565 / CPU time: 5.695
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -8854.437
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -8853.216
+Iteration 30 / LogL: -8858.238 / Time: 0h:0m:8s (0h:0m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -8851.349
+Iteration 40 / LogL: -8855.080 / Time: 0h:0m:10s (0h:0m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -8849.306
+Iteration 50 / LogL: -8853.514 / Time: 0h:0m:12s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -8885.310
+Iteration 60 / LogL: -8855.879 / Time: 0h:0m:14s (0h:0m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 67: -8849.229
+Iteration 70 / LogL: -8859.734 / Time: 0h:0m:16s (0h:0m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 71: -8848.825
+Iteration 80 / LogL: -9013.909 / Time: 0h:0m:18s (0h:0m:21s left)
+Iteration 90 / LogL: -8854.437 / Time: 0h:0m:21s (0h:0m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -8848.672
+Iteration 100 / LogL: -8877.235 / Time: 0h:0m:23s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -8885.310
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 106: -8847.066
+Iteration 110 / LogL: -8850.725 / Time: 0h:0m:25s (0h:0m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 119: -8846.728
+Iteration 120 / LogL: -8853.119 / Time: 0h:0m:28s (0h:0m:23s left)
+Iteration 130 / LogL: -8860.689 / Time: 0h:0m:30s (0h:0m:21s left)
+Iteration 140 / LogL: -8893.820 / Time: 0h:0m:32s (0h:0m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 148: -8846.593
+Iteration 150 / LogL: -8859.123 / Time: 0h:0m:34s (0h:0m:22s left)
+Log-likelihood cutoff on original alignment: -8885.310
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 154: -8845.020
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 156: -8844.898
+Iteration 160 / LogL: -8860.226 / Time: 0h:0m:36s (0h:0m:22s left)
+Iteration 170 / LogL: -8853.338 / Time: 0h:0m:39s (0h:0m:19s left)
+Iteration 180 / LogL: -8850.947 / Time: 0h:0m:41s (0h:0m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 188: -8844.536
+Iteration 190 / LogL: -8856.720 / Time: 0h:0m:43s (0h:0m:22s left)
+Iteration 200 / LogL: -8844.878 / Time: 0h:0m:46s (0h:0m:20s left)
+Log-likelihood cutoff on original alignment: -8885.310
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.918
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -8869.232 / Time: 0h:0m:48s (0h:0m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 213: -8844.323
+Iteration 220 / LogL: -8847.937 / Time: 0h:0m:50s (0h:0m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 229: -8844.145
+Iteration 230 / LogL: -9031.141 / Time: 0h:0m:52s (0h:0m:22s left)
+Iteration 240 / LogL: -8846.971 / Time: 0h:0m:54s (0h:0m:20s left)
+Iteration 250 / LogL: -8850.135 / Time: 0h:0m:56s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -8885.310
+Iteration 260 / LogL: -8846.892 / Time: 0h:0m:58s (0h:0m:15s left)
+Iteration 270 / LogL: -8849.845 / Time: 0h:1m:0s (0h:0m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 277: -8842.554
+Iteration 280 / LogL: -8858.815 / Time: 0h:1m:2s (0h:0m:21s left)
+Iteration 290 / LogL: -8850.356 / Time: 0h:1m:4s (0h:0m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 296: -8842.479
+BETTER TREE FOUND at iteration 300: -8842.473
+Iteration 300 / LogL: -8842.473 / Time: 0h:1m:7s (0h:0m:22s left)
+Log-likelihood cutoff on original alignment: -8885.310
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.948
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 307: -8842.327
+Iteration 310 / LogL: -8846.298 / Time: 0h:1m:9s (0h:0m:21s left)
+Iteration 320 / LogL: -8851.655 / Time: 0h:1m:12s (0h:0m:19s left)
+Iteration 330 / LogL: -8917.137 / Time: 0h:1m:15s (0h:0m:17s left)
+Iteration 340 / LogL: -8849.986 / Time: 0h:1m:17s (0h:0m:15s left)
+Iteration 350 / LogL: -8843.496 / Time: 0h:1m:20s (0h:0m:13s left)
+Log-likelihood cutoff on original alignment: -8885.310
+Iteration 360 / LogL: -8851.404 / Time: 0h:1m:23s (0h:0m:10s left)
+Iteration 370 / LogL: -8846.061 / Time: 0h:1m:25s (0h:0m:8s left)
+Iteration 380 / LogL: -9041.144 / Time: 0h:1m:28s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -8842.281
+Iteration 390 / LogL: -8845.923 / Time: 0h:1m:30s (0h:0m:3s left)
+Iteration 400 / LogL: -8844.059 / Time: 0h:1m:33s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -8885.310
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.962
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -8850.074 / Time: 0h:1m:36s (0h:0m:21s left)
+Iteration 420 / LogL: -8844.077 / Time: 0h:1m:39s (0h:0m:18s left)
+Iteration 430 / LogL: -9003.926 / Time: 0h:1m:41s (0h:0m:16s left)
+Iteration 440 / LogL: -8848.572 / Time: 0h:1m:44s (0h:0m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 441: -8842.224
+Iteration 450 / LogL: -8847.860 / Time: 0h:1m:47s (0h:0m:21s left)
+Log-likelihood cutoff on original alignment: -8885.310
+Iteration 460 / LogL: -8843.665 / Time: 0h:1m:49s (0h:0m:19s left)
+Iteration 470 / LogL: -8842.615 / Time: 0h:1m:52s (0h:0m:17s left)
+Iteration 480 / LogL: -8861.295 / Time: 0h:1m:55s (0h:0m:14s left)
+Iteration 490 / LogL: -8854.343 / Time: 0h:1m:57s (0h:0m:12s left)
+Iteration 500 / LogL: -8847.980 / Time: 0h:2m:1s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -8885.310
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -8863.674 / Time: 0h:2m:3s (0h:0m:21s left)
+Iteration 520 / LogL: -8846.224 / Time: 0h:2m:6s (0h:0m:19s left)
+Iteration 530 / LogL: -8850.177 / Time: 0h:2m:9s (0h:0m:17s left)
+Iteration 540 / LogL: -8845.904 / Time: 0h:2m:12s (0h:0m:14s left)
+Iteration 550 / LogL: -9004.531 / Time: 0h:2m:14s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -8885.310
+Iteration 560 / LogL: -8844.355 / Time: 0h:2m:17s (0h:0m:9s left)
+Iteration 570 / LogL: -8917.712 / Time: 0h:2m:20s (0h:0m:7s left)
+Iteration 580 / LogL: -8854.845 / Time: 0h:2m:22s (0h:0m:4s left)
+Iteration 590 / LogL: -8844.313 / Time: 0h:2m:25s (0h:0m:2s left)
+Iteration 600 / LogL: -8850.763 / Time: 0h:2m:28s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -8885.310
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.981
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -8921.370 / Time: 0h:2m:31s (0h:0m:22s left)
+Iteration 620 / LogL: -8845.878 / Time: 0h:2m:34s (0h:0m:19s left)
+Iteration 630 / LogL: -8842.397 / Time: 0h:2m:37s (0h:0m:17s left)
+Iteration 640 / LogL: -8845.972 / Time: 0h:2m:40s (0h:0m:15s left)
+Iteration 650 / LogL: -8846.529 / Time: 0h:2m:43s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -8885.310
+Iteration 660 / LogL: -8859.943 / Time: 0h:2m:47s (0h:0m:10s left)
+Iteration 670 / LogL: -8849.083 / Time: 0h:2m:50s (0h:0m:7s left)
+Iteration 680 / LogL: -8851.055 / Time: 0h:2m:53s (0h:0m:5s left)
+Iteration 690 / LogL: -8845.469 / Time: 0h:2m:56s (0h:0m:2s left)
+Iteration 700 / LogL: -8844.048 / Time: 0h:2m:59s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -8885.310
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+TREE SEARCH COMPLETED AFTER 700 ITERATIONS / Time: 0h:2m:59s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8842.224
+Optimal log-likelihood: -8842.219
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.193  C: 0.308  G: 0.301  T: 0.198
+Parameters optimization took 1 rounds (0.002 sec)
+BEST SCORE FOUND : -8842.219
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.239 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Multiple_alignment_edited114.fa.splits.nex
+Total tree length: 65.895
+
+Total number of iterations: 700
+CPU time used for tree search: 177.776 sec (0h:2m:57s)
+Wall-clock time used for tree search: 179.328 sec (0h:2m:59s)
+Total CPU time used: 178.408 sec (0h:2m:58s)
+Total wall-clock time used: 180.276 sec (0h:3m:0s)
+
+Computing bootstrap consensus tree...
+Reading input file Multiple_alignment_edited114.fa.splits.nex...
+76 taxa and 2594 splits.
+Consensus tree written to Multiple_alignment_edited114.fa.contree
+Reading input trees file Multiple_alignment_edited114.fa.contree
+Log-likelihood of consensus tree: -8842.632
+
+Analysis results written to: 
+  IQ-TREE report:                Multiple_alignment_edited114.fa.iqtree
+  Maximum-likelihood tree:       Multiple_alignment_edited114.fa.treefile
+  Likelihood distances:          Multiple_alignment_edited114.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Multiple_alignment_edited114.fa.splits.nex
+  Consensus tree:                Multiple_alignment_edited114.fa.contree
+  Screen log file:               Multiple_alignment_edited114.fa.log
+
+Date and Time: Thu Mar 23 01:23:42 2023

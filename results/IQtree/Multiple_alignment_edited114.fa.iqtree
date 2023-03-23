@@ -1,0 +1,560 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: Multiple_alignment_edited114.fa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 624075
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 79 sequences with 114 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 114
+Number of distinct site patterns: 114
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: F81+F+ASC
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+F81+F+ASC        -8897.0248  18098.0496 + 0.0902  64610.0496 - 0.0000  18513.9517 + 0.3457
+F81+F            -8897.0876  18098.1752 + 0.0847  64610.1752 - 0.0000  18514.0773 + 0.3247
+HKY+F+ASC        -8896.1535  18098.3070 + 0.0793  65222.3070 - 0.0000  18516.9454 + 0.0774
+HKY+F            -8896.1767  18098.3534 + 0.0775  65222.3534 - 0.0000  18516.9918 + 0.0756
+F81+F+ASC+G4     -8896.9905  18099.9811 - 0.0343  65223.9811 - 0.0000  18518.6195 - 0.0335
+F81+F+G4         -8897.0051  18100.0101 - 0.0338  65224.0101 - 0.0000  18518.6485 - 0.0330
+TPM3u+F+ASC      -8896.0939  18100.1879 - 0.0310  65840.1879 - 0.0000  18521.5624 - 0.0077
+TPM3u+F          -8896.0957  18100.1914 - 0.0309  65840.1914 - 0.0000  18521.5660 - 0.0077
+TN+F+ASC         -8896.1009  18100.2018 - 0.0307  65840.2018 - 0.0000  18521.5764 - 0.0076
+TPM3+F+ASC       -8896.1059  18100.2117 - 0.0306  65840.2117 - 0.0000  18521.5863 - 0.0076
+TPM3+F           -8896.1139  18100.2278 - 0.0303  65840.2278 - 0.0000  18521.6023 - 0.0075
+HKY+F+ASC+G4     -8896.1221  18100.2442 - 0.0301  65840.2442 - 0.0000  18521.6188 - 0.0075
+TN+F             -8896.1229  18100.2458 - 0.0301  65840.2458 - 0.0000  18521.6204 - 0.0075
+HKY+F+G4         -8896.1347  18100.2694 - 0.0297  65840.2694 - 0.0000  18521.6440 - 0.0074
+TPM2u+F+ASC      -8896.1569  18100.3137 - 0.0291  65840.3137 - 0.0000  18521.6883 - 0.0072
+TPM2u+F          -8896.1943  18100.3887 - 0.0280  65840.3887 - 0.0000  18521.7633 - 0.0070
+K3Pu+F+ASC       -8896.2901  18100.5802 - 0.0254  65840.5801 - 0.0000  18521.9547 - 0.0063
+K3Pu+F           -8896.3697  18100.7394 - 0.0235  65840.7394 - 0.0000  18522.1139 - 0.0058
+TPM2+F+ASC       -8896.3848  18100.7696 - 0.0231  65840.7696 - 0.0000  18522.1441 - 0.0058
+TPM2+F           -8896.4409  18100.8818 - 0.0219  65840.8818 - 0.0000  18522.2564 - 0.0054
+TPM3u+F+ASC+G4   -8896.0702  18102.1404 - 0.0117  66462.1404 - 0.0000  18526.2512 - 0.0007
+TN+F+ASC+G4      -8896.0739  18102.1479 - 0.0116  66462.1479 - 0.0000  18526.2587 - 0.0007
+TPM3u+F+G4       -8896.0749  18102.1498 - 0.0116  66462.1498 - 0.0000  18526.2605 - 0.0007
+TIM3+F+ASC       -8896.0817  18102.1634 - 0.0115  66462.1634 - 0.0000  18526.2742 - 0.0007
+TPM3+F+ASC+G4    -8896.0829  18102.1657 - 0.0115  66462.1657 - 0.0000  18526.2765 - 0.0007
+TN+F+G4          -8896.0848  18102.1697 - 0.0115  66462.1697 - 0.0000  18526.2804 - 0.0007
+TPM3+F+G4        -8896.0899  18102.1799 - 0.0114  66462.1799 - 0.0000  18526.2906 - 0.0007
+TIM2+F+ASC       -8896.1005  18102.2010 - 0.0113  66462.2010 - 0.0000  18526.3118 - 0.0007
+TIM3+F           -8896.1016  18102.2032 - 0.0113  66462.2032 - 0.0000  18526.3139 - 0.0007
+TPM2u+F+ASC+G4   -8896.1085  18102.2169 - 0.0112  66462.2169 - 0.0000  18526.3277 - 0.0007
+TPM2u+F+G4       -8896.1247  18102.2494 - 0.0110  66462.2494 - 0.0000  18526.3602 - 0.0007
+TIM2+F           -8896.1277  18102.2553 - 0.0110  66462.2553 - 0.0000  18526.3661 - 0.0007
+K3Pu+F+ASC+G4    -8896.2207  18102.4414 - 0.0100  66462.4414 - 0.0000  18526.5521 - 0.0006
+TPM2+F+ASC+G4    -8896.2448  18102.4895 - 0.0098  66462.4895 - 0.0000  18526.6003 - 0.0006
+K3Pu+F+G4        -8896.2482  18102.4964 - 0.0098  66462.4964 - 0.0000  18526.6072 - 0.0006
+TPM2+F+G4        -8896.3147  18102.6294 - 0.0091  66462.6294 - 0.0000  18526.7402 - 0.0006
+TIM+F+ASC        -8896.9413  18103.8827 - 0.0049  66463.8827 - 0.0000  18527.9934 - 0.0003
+TIM+F            -8897.0780  18104.1559 - 0.0043  66464.1559 - 0.0000  18528.2667 - 0.0003
+TIM3+F+ASC+G4    -8896.0572  18104.1144 - 0.0043  67088.1144 - 0.0000  18530.9614 - 0.0001
+TIM3+F+G4        -8896.0670  18104.1341 - 0.0043  67088.1341 - 0.0000  18530.9810 - 0.0001
+TIM2+F+ASC+G4    -8896.0725  18104.1450 - 0.0043  67088.1450 - 0.0000  18530.9919 - 0.0001
+TIM2+F+G4        -8896.0835  18104.1671 - 0.0042  67088.1671 - 0.0000  18531.0140 - 0.0001
+TIM+F+ASC+G4     -8896.7995  18105.5989 - 0.0021  67089.5989 - 0.0000  18532.4459 - 0.0000
+TIM+F+G4         -8896.8519  18105.7039 - 0.0020  67089.7039 - 0.0000  18532.5509 - 0.0000
+TVM+F+ASC        -8901.5231  18115.0461 - 0.0000  67099.0461 - 0.0000  18541.8931 - 0.0000
+TVM+F            -8901.5752  18115.1505 - 0.0000  67099.1505 - 0.0000  18541.9974 - 0.0000
+GTR+F+ASC        -8901.2345  18116.4690 - 0.0000  67728.4690 - 0.0000  18546.0521 - 0.0000
+GTR+F            -8901.3158  18116.6316 - 0.0000  67728.6316 - 0.0000  18546.2147 - 0.0000
+TVM+F+ASC+G4     -8901.4561  18116.9122 - 0.0000  67728.9122 - 0.0000  18546.4954 - 0.0000
+TVM+F+G4         -8901.4893  18116.9786 - 0.0000  67728.9786 - 0.0000  18546.5618 - 0.0000
+GTR+F+ASC+G4     -8901.1549  18118.3097 - 0.0000  68362.3097 - 0.0000  18550.6291 - 0.0000
+GTR+F+G4         -8901.1854  18118.3708 - 0.0000  68362.3708 - 0.0000  18550.6902 - 0.0000
+TVMe+ASC         -8961.6567  18229.3135 - 0.0000  65353.3135 - 0.0000  18647.9518 - 0.0000
+TVMe             -8961.6829  18229.3658 - 0.0000  65353.3658 - 0.0000  18648.0042 - 0.0000
+K3P+ASC          -8968.1957  18238.3913 - 0.0000  64142.3913 - 0.0000  18651.5573 - 0.0000
+K3P              -8968.2991  18238.5981 - 0.0000  64142.5981 - 0.0000  18651.7641 - 0.0000
+TVMe+ASC+G4      -8961.6244  18231.2488 - 0.0000  65971.2488 - 0.0000  18652.6233 - 0.0000
+TVMe+G4          -8961.6361  18231.2722 - 0.0000  65971.2722 - 0.0000  18652.6468 - 0.0000
+SYM+ASC          -8961.7636  18231.5272 - 0.0000  65971.5272 - 0.0000  18652.9017 - 0.0000
+SYM              -8962.0550  18232.1100 - 0.0000  65972.1100 - 0.0000  18653.4846 - 0.0000
+TIMe+ASC         -8968.1134  18240.2269 - 0.0000  64752.2269 - 0.0000  18656.1290 - 0.0000
+K3P+ASC+G4       -8968.1416  18240.2832 - 0.0000  64752.2832 - 0.0000  18656.1853 - 0.0000
+K3P+G4           -8968.1680  18240.3361 - 0.0000  64752.3361 - 0.0000  18656.2382 - 0.0000
+TIMe             -8968.2363  18240.4726 - 0.0000  64752.4726 - 0.0000  18656.3748 - 0.0000
+SYM+ASC+G4       -8961.4947  18232.9894 - 0.0000  66592.9894 - 0.0000  18657.1001 - 0.0000
+SYM+G4           -8961.6010  18233.2020 - 0.0000  66593.2020 - 0.0000  18657.3128 - 0.0000
+TIMe+ASC+G4      -8968.0418  18242.0835 - 0.0000  65366.0835 - 0.0000  18660.7219 - 0.0000
+TIMe+G4          -8968.0696  18242.1392 - 0.0000  65366.1392 - 0.0000  18660.7776 - 0.0000
+JC+ASC           -8988.3823  18274.7645 - 0.0000  62974.7645 + 0.5315  18682.4581 - 0.0000
+JC               -8988.5083  18275.0167 - 0.0000  62975.0167 + 0.4685  18682.7103 - 0.0000
+TIM3e+ASC        -8982.1765  18268.3531 - 0.0000  64780.3531 - 0.0000  18684.2553 - 0.0000
+TIM3e            -8982.2512  18268.5024 - 0.0000  64780.5024 - 0.0000  18684.4046 - 0.0000
+K2P+ASC          -8987.0981  18274.1962 - 0.0000  63574.1962 - 0.0000  18684.6259 - 0.0000
+K2P              -8987.1235  18274.2470 - 0.0000  63574.2470 - 0.0000  18684.6768 - 0.0000
+TIM2e+ASC        -8982.6013  18269.2025 - 0.0000  64781.2025 - 0.0000  18685.1047 - 0.0000
+TIM2e            -8982.6660  18269.3320 - 0.0000  64781.3320 - 0.0000  18685.2342 - 0.0000
+JC+ASC+G4        -8988.3388  18276.6776 - 0.0000  63576.6776 - 0.0000  18687.1073 - 0.0000
+JC+G4            -8988.3736  18276.7471 - 0.0000  63576.7471 - 0.0000  18687.1769 - 0.0000
+TIM3e+ASC+G4     -8982.1133  18270.2266 - 0.0000  65394.2266 - 0.0000  18688.8650 - 0.0000
+TIM3e+G4         -8982.1522  18270.3044 - 0.0000  65394.3044 - 0.0000  18688.9428 - 0.0000
+TNe+ASC          -8987.0468  18276.0935 - 0.0000  64180.0935 - 0.0000  18689.2595 - 0.0000
+TNe              -8987.0596  18276.1191 - 0.0000  64180.1191 - 0.0000  18689.2851 - 0.0000
+K2P+ASC+G4       -8987.1160  18276.2319 - 0.0000  64180.2319 - 0.0000  18689.3979 - 0.0000
+K2P+G4           -8987.1220  18276.2440 - 0.0000  64180.2440 - 0.0000  18689.4100 - 0.0000
+TIM2e+ASC+G4     -8982.4991  18270.9983 - 0.0000  65394.9983 - 0.0000  18689.6366 - 0.0000
+TIM2e+G4         -8982.5513  18271.1027 - 0.0000  65395.1027 - 0.0000  18689.7410 - 0.0000
+TNe+ASC+G4       -8987.0698  18278.1396 - 0.0000  64790.1396 - 0.0000  18694.0418 - 0.0000
+TNe+G4           -8987.0751  18278.1501 - 0.0000  64790.1501 - 0.0000  18694.0523 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: F81+F+ASC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1926
+  pi(C) = 0.3075
+  pi(G) = 0.3015
+  pi(T) = 0.1984
+
+Rate matrix Q:
+
+  A    -1.094    0.4166    0.4085    0.2688
+  C     0.261   -0.9382    0.4085    0.2688
+  G     0.261    0.4166   -0.9464    0.2688
+  T     0.261    0.4166    0.4085    -1.086
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -8842.2191 (s.e. 43.1578)
+Unconstrained log-likelihood (without tree): -539.9266
+Number of free parameters (#branches + #model parameters): 152
+Akaike information criterion (AIC) score: 17988.4381
+Corrected Akaike information criterion (AICc) score: 64500.4381
+Bayesian information criterion (BIC) score: 18404.3403
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 152
+Sample size (n, alignment length): 114
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 65.8952
+Sum of internal branch lengths: 26.8361 (40.7255% of tree length)
+
+WARNING: 6 near-zero internal branches (<0.0088) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'CCGB01_NLM25_RS08180_218993_219453_integrase' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**CCGB01_NLM25_RS08180_218993_219453_integrase
+|
++**CCGB20_NLM15_RS07775_215467_215927_integrase
+|
+|                                                                            +**CCGB01_NLM25_RS07365_25189_26238_integrase
+|                                                                         +**| (0/91)
+|                                                                         |  +**CCGB20_NLM15_RS06975_23307_24356_integrase
+|                                                                  +------| (98/69)
+|                                                                  |      |  +----CCGB20_NLM15_RS08455_373103_374283_tyrosine-type
+|                                                                  |      +--| (52.6/69)
+|                                                                  |         +----CCGUVB4N_NLM31_RS07475_566538_566859_tyrosine-type
+|                                                               +--| (40.4/59)
+|                                                               |  +--CCGUVB1N3_NLM33_RS37255_628029_629394_tyrosine-type
+|                                                            +--| (42.7/34)
+|                                                            |  |       +**CCGUVB14_NLM32_RS07405_365125_365855_DDE-type
+|                                                            |  |  +----| (86.5/98)
+|                                                            |  |  |    +**CCGUVB4N_NLM31_RS06685_367985_368715_DDE-type
+|                                                            |  +--| (87.3/76)
+|                                                            |     +--CCGUVB1N3_NLM33_RS35325_168005_169772_site-specific
+|                                                         +--| (89.4/58)
+|                                                         |  |                 +-----CCGUVB23_NLN62_RS08825_240578_241487_tyrosine-type
+|                                                         |  |              +--| (18.9/78)
+|                                                         |  |              |  |      +**CCGUVB14_NLM32_RS45755_673014_673641_tyrosine-type
+|                                                         |  |              |  |  +---| (91.7/99)
+|                                                         |  |              |  |  |   +**CCGUVB14_NLM32_RS45770_777262_777889_tyrosine-type
+|                                                         |  |              |  +--| (20.8/80)
+|                                                         |  |              |     +--CCGB12__NLM27_RS25890_308219_308399_integrase_Unknown
+|                                                         |  |           +--| (0/76)
+|                                                         |  |           |  +-----CCGUVB1N3_NLM33_RS38720_939836_940235_tyrosine-type
+|                                                         |  |        +**| (0/75)
+|                                                         |  |        |  +------CCGB12__NLM27_RS25930_320262_321034_integrase
+|                                                         |  |     +--| (75.1/79)
+|                                                         |  |     |  +**CCGUVB4N_NLM31_RS09880_1110534_1110687_integrase
+|                                                         |  |  +--| (48.3/80)
+|                                                         |  |  |  +**CCGUVB14_NLM32_RS10865_1143506_1143659_integrase
+|                                                         |  +--| (77.3/71)
+|                                                         |     |  +**CCGUVB14_NLM32_RS08600_634745_634901_integrase
+|                                                         |     +**| (0/71)
+|                                                         |        +**CCGUVB4N_NLM31_RS09720_1078829_1078982_integrase
+|                                                      +--| (0/43)
+|                                                      |  +**CCGE-LA001__BCCGELA001_RS30055_431645_432639_integrase_Unknown
+|                                                   +--| (62.2/57)
+|                                                   |  +------CCGUVB4N_NLM31_RS07455_562822_563578_tyrosine-type
+|                                                +--| (85.1/55)
+|                                                |  |  +---CCGB12__NLM27_RS25035_70281_70965_tyrosine-type
+|                                                |  +--| (0/50)
+|                                                |     +----CCGUVB23_NLN62_RS08870_248950_249331_integrase_Unknown
+|                                             +--| (78.7/51)
+|                                             |  |     +--CCGB12__NLM27_RS26595_483997_484351_DDE-type
+|                                             |  |  +--| (72.5/83)
+|                                             |  |  |  +----CCGUVB1N3_NLM33_RS36125_358732_359449_tyrosine-type
+|                                             |  +--| (16.3/62)
+|                                             |     +--CCGUVB23_NLN62_RS12525_1091695_1093117_site-specific
+|                                          +--| (87.8/51)
+|                                          |  |  +--CCGE-LA001__BCCGELA001_RS30845_618606_619212_integrase
+|                                          |  +--| (19.4/72)
+|                                          |     |      +**CCGB01_NLM25_RS08515_293897_294399_DDE-type
+|                                          |     |  +---| (93.5/97)
+|                                          |     |  |   +**CCGB20_NLM15_RS08090_286798_287300_DDE-type
+|                                          |     +**| (0/31)
+|                                          |        +---CCGB12__NLM27_RS26425_433549_434116_integrase
+|                                       +--| (11.7/32)
+|                                       |  |  +--CCGUVB14_NLM32_RS06320_117514_117889_tyrosine-type
+|                                       |  +--| (20.8/66)
+|                                       |     |     +**CCGUVB14_NLM32_RS08175_549991_550480_tyrosine-type
+|                                       |     |  +--| (71.7/99)
+|                                       |     |  |  +**CCGUVB14_NLM32_RS09290_788153_788642_tyrosine-type
+|                                       |     +--| (63.6/78)
+|                                       |        +---CCGUVB23_NLN62_RS07890_39013_39478_tyrosine-type
+|                                    +--| (82.7/61)
+|                                    |  +----CCGUVB23_NLN62_RS08070_78556_78955_integrase
+|                                 +--| (86.1/56)
+|                                 |  +**CCGE-LA001__BCCGELA001_RS30555_539631_540858_phage
+|                              +--| (18.6/44)
+|                              |  +--CCGUVB1N3_NLM33_RS35330_169764_170907_tyrosine-type
+|                           +--| (0/43)
+|                           |  +-----CCGUVB1N3_NLM33_RS34480_4630_5968_integrase
+|                        +--| (58.6/33)
+|                        |  |      +--------CCGUVB23_NLN62_RS08145_105636_106653_integrase
+|                        |  |  +---| (85/55)
+|                        |  |  |   +**CCGUVB4N_NLM31_RS07460_563574_564537_tyrosine-type
+|                        |  +--| (30.2/42)
+|                        |     +---CCGUVB1N3_NLM33_RS37260_629390_630620_tyrosine-type
+|                     +--| (59/48)
+|                     |  |  +**CCGUVB23_NLN62_RS08470_170717_171602_tyrosine-type
+|                     |  +--| (81.1/52)
+|                     |     |      +**CCGUVB14_NLM32_RS07415_367246_367489_integrase
+|                     |     +------| (100/99)
+|                     |            +**CCGUVB4N_NLM31_RS06695_370105_370348_integrase
+|                  +--| (0/44)
+|                  |  |     +-----CCGUVB23_NLN62_RS10955_728555_729791_tyrosine-type
+|                  |  |  +--| (50.2/33)
+|                  |  |  |  |               +--CCGE-LA001__BCCGELA001_RS30140_451937_452521_integrase_Unknown
+|                  |  |  |  |            +--| (0/39)
+|                  |  |  |  |            |  |  +--CCGUVB23_NLN62_RS07885_38502_38703_site-specific
+|                  |  |  |  |            |  +--| (78.9/88)
+|                  |  |  |  |            |     +--CCGUVB1N3_NLM33_RS38545_902354_902858_integrase
+|                  |  |  |  |        +---| (70.1/65)
+|                  |  |  |  |        |   +----CCGUVB1N3_NLM33_RS38395_871871_872075_integrase_Unknown
+|                  |  |  |  |     +--| (88.6/56)
+|                  |  |  |  |     |  +**CCGUVB23_NLN62_RS10945_726628_727627_tyrosine-type
+|                  |  |  |  |  +--| (91.4/54)
+|                  |  |  |  |  |  +--CCGUVB4N_NLM31_RS07465_564529_565540_tyrosine-type
+|                  |  |  |  +--| (24.5/33)
+|                  |  |  |     |                  +--CCGUVB14_NLM32_RS08595_633753_634590_site-specific
+|                  |  |  |     |              +---| (82.5/54)
+|                  |  |  |     |              |   |          +**CCGUVB14_NLM32_RS06605_175153_175822_tyrosine-type
+|                  |  |  |     |              |   |   +------| (100/98)
+|                  |  |  |     |              |   |   |      +**CCGUVB4N_NLM31_RS05915_186294_186963_tyrosine-type
+|                  |  |  |     |              |   +---| (89.9/69)
+|                  |  |  |     |              |       +**CCGB12__NLM27_RS26000_334920_335490_DDE-type
+|                  |  |  |     |           +--| (93.1/45)
+|                  |  |  |     |           |  |     +**CCGUVB14_NLM32_RS08170_549641_549995_phage
+|                  |  |  |     |           |  |  +--| (91.3/99)
+|                  |  |  |     |           |  |  |  +**CCGUVB14_NLM32_RS09295_788638_788992_phage
+|                  |  |  |     |           |  +**| (0/74)
+|                  |  |  |     |           |     +--CCGUVB1N3_NLM33_RS36290_401098_401959_tyrosine-type
+|                  |  |  |     |     +-----| (100/48)
+|                  |  |  |     |     |     +**CCGUVB14_NLM32_RS08960_719432_720293_tyrosine-type
+|                  |  |  |     |  +--| (30.3/34)
+|                  |  |  |     |  |  |  +**CCGUVB14_NLM32_RS08735_672013_673018_tyrosine-type
+|                  |  |  |     |  |  +--| (68.3/98)
+|                  |  |  |     |  |     +**CCGUVB14_NLM32_RS09240_776261_777266_tyrosine-type
+|                  |  |  |     +--| (46.1/31)
+|                  |  |  |        |  +**CCGUVB14_NLM32_RS08895_706576_707581_tyrosine-type
+|                  |  |  |        +--| (99.8/97)
+|                  |  |  |           +--CCGUVB1N3_NLM33_RS37250_627028_628033_tyrosine-type
+|                  |  +--| (96.5/52)
+|                  |     +--CCGUVB14_NLM32_RS08130_541352_542378_tyrosine-type
+|               +--| (87.2/45)
+|               |  |     +--CCGUVB14_NLM32_RS08120_539164_540382_tyrosine-type
+|               |  |  +--| (29.6/49)
+|               |  |  |  |  +-----CCGUVB23_NLN62_RS08455_167100_167466_site-specific
+|               |  |  |  +--| (64.4/59)
+|               |  |  |     +--CCGUVB23_NLN62_RS12515_1087755_1089918_integrase_WP_254108995.1
+|               |  +--| (89.3/53)
+|               |     |        +**CCGUVB4N_NLM31_RS07480_566885_567422_site-specific
+|               |     |  +-----| (65.2/67)
+|               |     |  |     |       +**CCGB01_NLM25_RS08420_269568_269826_integrase
+|               |     |  |     +-------| (71.9/87)
+|               |     |  |             +**CCGB20_NLM15_RS07985_262487_262745_integrase
+|               |     +--| (56.1/24)
+|               |        |  +-----CCGUVB14_NLM32_RS08125_540378_541356_tyrosine-type
+|               |        +--| (0/71)
+|               |           +**CCGUVB23_NLN62_RS10950_727623_728559_tyrosine-type
+|         +-----| (99.5/62)
+|         |     +**CCGUVB4N_NLM31_RS42965_562414_562546_site-specific
++---------| (71.3/100)
+          |  +**CCGUVB14_NLM32_RS08745_674003_675275_tyrosine-type
+          +**| (0/98)
+             +**CCGUVB14_NLM32_RS09250_778251_779523_tyrosine-type
+
+Tree in newick format:
+
+(CCGB01_NLM25_RS08180_218993_219453_integrase:0.0000020821,CCGB20_NLM15_RS07775_215467_215927_integrase:0.0000023528,(((((((((((((((((((((CCGB01_NLM25_RS07365_25189_26238_integrase:0.0000020770,CCGB20_NLM15_RS06975_23307_24356_integrase:0.0000020770)0/91:0.0000021865,(CCGB20_NLM15_RS08455_373103_374283_tyrosine-type:1.1422853067,CCGUVB4N_NLM31_RS07475_566538_566859_tyrosine-type:1.0177596973)52.6/69:0.3110291359)98/69:1.5035721430,CCGUVB1N3_NLM33_RS37255_628029_629394_tyrosine-type:0.0541701830)40.4/59:0.3357471010,((CCGUVB14_NLM32_RS07405_365125_365855_DDE-type:0.0000020770,CCGUVB4N_NLM31_RS06685_367985_368715_DDE-type:0.0000020770)86.5/98:1.1334762010,CCGUVB1N3_NLM33_RS35325_168005_169772_site-specific:0.3729830453)87.3/76:0.7499494081)42.7/34:0.4499674414,((((((CCGUVB23_NLN62_RS08825_240578_241487_tyrosine-type:1.3037348685,((CCGUVB14_NLM32_RS45755_673014_673641_tyrosine-type:0.0000020770,CCGUVB14_NLM32_RS45770_777262_777889_tyrosine-type:0.0000020770)91.7/99:0.9530323762,CCGB12__NLM27_RS25890_308219_308399_integrase_Unknown:0.7541360644)20.8/80:0.1986764260)18.9/78:0.3538666316,CCGUVB1N3_NLM33_RS38720_939836_940235_tyrosine-type:1.4043752614)0/76:0.0950051009,CCGB12__NLM27_RS25930_320262_321034_integrase:1.6112112876)0/75:0.0000020281,CCGUVB4N_NLM31_RS09880_1110534_1110687_integrase:0.0000025307)75.1/79:0.0087778627,CCGUVB14_NLM32_RS10865_1143506_1143659_integrase:0.0000020038)48.3/80:0.0931475479,(CCGUVB14_NLM32_RS08600_634745_634901_integrase:0.0000024598,CCGUVB4N_NLM31_RS09720_1078829_1078982_integrase:0.0000024213)0/71:0.0000026722)77.3/71:0.6499390298)89.4/58:0.7694572678,CCGE-LA001__BCCGELA001_RS30055_431645_432639_integrase_Unknown:0.0000023464)0/43:0.0316647848,CCGUVB4N_NLM31_RS07455_562822_563578_tyrosine-type:1.4351349331)62.2/57:0.4244083532,(CCGB12__NLM27_RS25035_70281_70965_tyrosine-type:0.8967000863,CCGUVB23_NLN62_RS08870_248950_249331_integrase_Unknown:1.0806270904)0/50:0.1070437906)85.1/55:0.4675360572,((CCGB12__NLM27_RS26595_483997_484351_DDE-type:0.3538388551,CCGUVB1N3_NLM33_RS36125_358732_359449_tyrosine-type:1.2065206186)72.5/83:0.7316957068,CCGUVB23_NLN62_RS12525_1091695_1093117_site-specific:0.4461842582)16.3/62:0.1018074105)78.7/51:0.3388101486,(CCGE-LA001__BCCGELA001_RS30845_618606_619212_integrase:0.4453641898,((CCGB01_NLM25_RS08515_293897_294399_DDE-type:0.0000020770,CCGB20_NLM15_RS08090_286798_287300_DDE-type:0.0000020770)93.5/97:0.9564913790,CCGB12__NLM27_RS26425_433549_434116_integrase:0.8660732275)0/31:0.0000029267)19.4/72:0.0909994951)87.8/51:0.4180660784,(CCGUVB14_NLM32_RS06320_117514_117889_tyrosine-type:0.3926127029,((CCGUVB14_NLM32_RS08175_549991_550480_tyrosine-type:0.0000020770,CCGUVB14_NLM32_RS09290_788153_788642_tyrosine-type:0.0000020770)71.7/99:0.7166442419,CCGUVB23_NLN62_RS07890_39013_39478_tyrosine-type:1.0092824951)63.6/78:0.4727293210)20.8/66:0.1357423928)11.7/32:0.1825856731,CCGUVB23_NLN62_RS08070_78556_78955_integrase:1.0294227193)82.7/61:0.5985476125,CCGE-LA001__BCCGELA001_RS30555_539631_540858_phage:0.0000024456)86.1/56:0.4412107379,CCGUVB1N3_NLM33_RS35330_169764_170907_tyrosine-type:0.6590723395)18.6/44:0.1769576095,CCGUVB1N3_NLM33_RS34480_4630_5968_integrase:1.3453795193)0/43:0.0713432171,((CCGUVB23_NLN62_RS08145_105636_106653_integrase:1.9313921148,CCGUVB4N_NLM31_RS07460_563574_564537_tyrosine-type:0.0000023449)85/55:0.8169792519,CCGUVB1N3_NLM33_RS37260_629390_630620_tyrosine-type:0.9094139176)30.2/42:0.2227635212)58.6/33:0.3196305547,(CCGUVB23_NLN62_RS08470_170717_171602_tyrosine-type:0.0000025212,(CCGUVB14_NLM32_RS07415_367246_367489_integrase:0.0000020770,CCGUVB4N_NLM31_RS06695_370105_370348_integrase:0.0000020770)100/99:1.5870468340)81.1/52:0.6258864002)59/48:0.2668046959,((CCGUVB23_NLN62_RS10955_728555_729791_tyrosine-type:1.2300546992,(((((CCGE-LA001__BCCGELA001_RS30140_451937_452521_integrase_Unknown:0.4966119764,(CCGUVB23_NLN62_RS07885_38502_38703_site-specific:0.4592271145,CCGUVB1N3_NLM33_RS38545_902354_902858_integrase:0.6746166280)78.9/88:0.4891090250)0/39:0.1093037500,CCGUVB1N3_NLM33_RS38395_871871_872075_integrase_Unknown:1.1278400956)70.1/65:0.9684126741,CCGUVB23_NLN62_RS10945_726628_727627_tyrosine-type:0.0000020082)88.6/56:0.4860842682,CCGUVB4N_NLM31_RS07465_564529_565540_tyrosine-type:0.1075626496)91.4/54:0.2038050208,(((((CCGUVB14_NLM32_RS08595_633753_634590_site-specific:0.6048621113,((CCGUVB14_NLM32_RS06605_175153_175822_tyrosine-type:0.0000020770,CCGUVB4N_NLM31_RS05915_186294_186963_tyrosine-type:0.0000020770)100/98:1.5637421940,CCGB12__NLM27_RS26000_334920_335490_DDE-type:0.0000028119)89.9/69:0.9852611059)82.5/54:0.8268334883,((CCGUVB14_NLM32_RS08170_549641_549995_phage:0.0000020770,CCGUVB14_NLM32_RS09295_788638_788992_phage:0.0000020770)91.3/99:0.0411320329,CCGUVB1N3_NLM33_RS36290_401098_401959_tyrosine-type:0.0230762786)0/74:0.0000026333)93.1/45:0.2132727988,CCGUVB14_NLM32_RS08960_719432_720293_tyrosine-type:0.0000029418)100/48:1.2346827390,(CCGUVB14_NLM32_RS08735_672013_673018_tyrosine-type:0.0000023621,CCGUVB14_NLM32_RS09240_776261_777266_tyrosine-type:0.0000020770)68.3/98:0.1938831275)30.3/34:0.0888606515,(CCGUVB14_NLM32_RS08895_706576_707581_tyrosine-type:0.0000025443,CCGUVB1N3_NLM33_RS37250_627028_628033_tyrosine-type:0.0089565703)99.8/97:0.4323062279)46.1/31:0.0823716178)24.5/33:0.0809897393)50.2/33:0.1336786021,CCGUVB14_NLM32_RS08130_541352_542378_tyrosine-type:0.0515342070)96.5/52:0.7257058093)0/44:0.0713352006,((CCGUVB14_NLM32_RS08120_539164_540382_tyrosine-type:0.5076555750,(CCGUVB23_NLN62_RS08455_167100_167466_site-specific:1.3785821199,CCGUVB23_NLN62_RS12515_1087755_1089918_integrase_WP_254108995.1:0.4255903714)64.4/59:0.6577037342)29.6/49:0.2355272083,((CCGUVB4N_NLM31_RS07480_566885_567422_site-specific:0.0000023826,(CCGB01_NLM25_RS08420_269568_269826_integrase:0.0029821209,CCGB20_NLM15_RS07985_262487_262745_integrase:0.0057628998)71.9/87:1.7305155910)65.2/67:1.4144283200,(CCGUVB14_NLM32_RS08125_540378_541356_tyrosine-type:1.4104164122,CCGUVB23_NLN62_RS10950_727623_728559_tyrosine-type:0.0000021661)0/71:0.1239829044)56.1/24:0.3745097014)89.3/53:0.4590805548)87.2/45:0.3878710372,CCGUVB4N_NLM31_RS42965_562414_562546_site-specific:0.0000024567)99.5/62:1.2968573180,(CCGUVB14_NLM32_RS08745_674003_675275_tyrosine-type:0.0000020686,CCGUVB14_NLM32_RS09250_778251_779523_tyrosine-type:0.0000013124)0/98:0.0000023735)71.3/100:2.1918142300);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -8842.632459
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--CCGB01_NLM25_RS08180_218993_219453_integrase
+|
++--CCGB20_NLM15_RS07775_215467_215927_integrase
+|
+|                                                                         +--CCGB01_NLM25_RS07365_25189_26238_integrase
+|                                                                      +--| (91)
+|                                                                      |  +--CCGB20_NLM15_RS06975_23307_24356_integrase
+|                                                               +------| (69)
+|                                                               |      |  +----CCGB20_NLM15_RS08455_373103_374283_tyrosine-type
+|                                                               |      +--| (69)
+|                                                               |         +----CCGUVB4N_NLM31_RS07475_566538_566859_tyrosine-type
+|                                                            +--| (59)
+|                                                            |  +--CCGUVB1N3_NLM33_RS37255_628029_629394_tyrosine-type
+|                                                         +--| (58)
+|                                                         |  |                    +-----CCGUVB23_NLN62_RS08825_240578_241487_tyrosine-type
+|                                                         |  |                 +--| (78)
+|                                                         |  |                 |  |      +--CCGUVB14_NLM32_RS45755_673014_673641_tyrosine-type
+|                                                         |  |                 |  |  +---| (99)
+|                                                         |  |                 |  |  |   +--CCGUVB14_NLM32_RS45770_777262_777889_tyrosine-type
+|                                                         |  |                 |  +--| (80)
+|                                                         |  |                 |     +--CCGB12__NLM27_RS25890_308219_308399_integrase_Unknown
+|                                                         |  |              +--| (76)
+|                                                         |  |              |  +-----CCGUVB1N3_NLM33_RS38720_939836_940235_tyrosine-type
+|                                                         |  |           +--| (75)
+|                                                         |  |           |  +------CCGB12__NLM27_RS25930_320262_321034_integrase
+|                                                         |  |        +--| (79)
+|                                                         |  |        |  +--CCGUVB4N_NLM31_RS09880_1110534_1110687_integrase
+|                                                         |  |     +--| (80)
+|                                                         |  |     |  +--CCGUVB14_NLM32_RS10865_1143506_1143659_integrase
+|                                                         |  |  +--| (71)
+|                                                         |  |  |  |  +--CCGUVB14_NLM32_RS08600_634745_634901_integrase
+|                                                         |  |  |  +--| (71)
+|                                                         |  |  |     +--CCGUVB4N_NLM31_RS09720_1078829_1078982_integrase
+|                                                         |  +--| (40)
+|                                                         |     |     +--CCGUVB14_NLM32_RS07405_365125_365855_DDE-type
+|                                                         |     |  +--| (98)
+|                                                         |     |  |  +--CCGUVB4N_NLM31_RS06685_367985_368715_DDE-type
+|                                                         |     +--| (76)
+|                                                         |        +--CCGUVB1N3_NLM33_RS35325_168005_169772_site-specific
+|                                                      +--| (43)
+|                                                      |  +--CCGE-LA001__BCCGELA001_RS30055_431645_432639_integrase_Unknown
+|                                                   +--| (57)
+|                                                   |  +------CCGUVB4N_NLM31_RS07455_562822_563578_tyrosine-type
+|                                                +--| (55)
+|                                                |  |  +---CCGB12__NLM27_RS25035_70281_70965_tyrosine-type
+|                                                |  +--| (50)
+|                                                |     +----CCGUVB23_NLN62_RS08870_248950_249331_integrase_Unknown
+|                                             +--| (51)
+|                                             |  |     +--CCGB12__NLM27_RS26595_483997_484351_DDE-type
+|                                             |  |  +--| (83)
+|                                             |  |  |  +----CCGUVB1N3_NLM33_RS36125_358732_359449_tyrosine-type
+|                                             |  +--| (62)
+|                                             |     +--CCGUVB23_NLN62_RS12525_1091695_1093117_site-specific
+|                                          +--| (51)
+|                                          |  |     +--CCGE-LA001__BCCGELA001_RS30845_618606_619212_integrase
+|                                          |  |  +--| (41)
+|                                          |  |  |  +---CCGB12__NLM27_RS26425_433549_434116_integrase
+|                                          |  +--| (72)
+|                                          |     |   +--CCGB01_NLM25_RS08515_293897_294399_DDE-type
+|                                          |     +---| (97)
+|                                          |         +--CCGB20_NLM15_RS08090_286798_287300_DDE-type
+|                                       +--| (32)
+|                                       |  |  +--CCGUVB14_NLM32_RS06320_117514_117889_tyrosine-type
+|                                       |  +--| (66)
+|                                       |     |     +--CCGUVB14_NLM32_RS08175_549991_550480_tyrosine-type
+|                                       |     |  +--| (99)
+|                                       |     |  |  +--CCGUVB14_NLM32_RS09290_788153_788642_tyrosine-type
+|                                       |     +--| (78)
+|                                       |        +---CCGUVB23_NLN62_RS07890_39013_39478_tyrosine-type
+|                                    +--| (61)
+|                                    |  +----CCGUVB23_NLN62_RS08070_78556_78955_integrase
+|                                 +--| (56)
+|                                 |  +--CCGE-LA001__BCCGELA001_RS30555_539631_540858_phage
+|                              +--| (44)
+|                              |  +--CCGUVB1N3_NLM33_RS35330_169764_170907_tyrosine-type
+|                           +--| (43)
+|                           |  +-----CCGUVB1N3_NLM33_RS34480_4630_5968_integrase
+|                        +--| (33)
+|                        |  |      +--------CCGUVB23_NLN62_RS08145_105636_106653_integrase
+|                        |  |  +---| (55)
+|                        |  |  |   +--CCGUVB4N_NLM31_RS07460_563574_564537_tyrosine-type
+|                        |  +--| (42)
+|                        |     +---CCGUVB1N3_NLM33_RS37260_629390_630620_tyrosine-type
+|                     +--| (48)
+|                     |  |  +--CCGUVB23_NLN62_RS08470_170717_171602_tyrosine-type
+|                     |  +--| (52)
+|                     |     |      +--CCGUVB14_NLM32_RS07415_367246_367489_integrase
+|                     |     +------| (99)
+|                     |            +--CCGUVB4N_NLM31_RS06695_370105_370348_integrase
+|                  +--| (44)
+|                  |  |     +-----CCGUVB23_NLN62_RS10955_728555_729791_tyrosine-type
+|                  |  |  +--| (33)
+|                  |  |  |  |              +--CCGE-LA001__BCCGELA001_RS30140_451937_452521_integrase_Unknown
+|                  |  |  |  |        +-----| (65)
+|                  |  |  |  |        |     |     +--CCGUVB23_NLN62_RS07885_38502_38703_site-specific
+|                  |  |  |  |        |     |  +--| (88)
+|                  |  |  |  |        |     |  |  +--CCGUVB1N3_NLM33_RS38545_902354_902858_integrase
+|                  |  |  |  |        |     +--| (43)
+|                  |  |  |  |        |        +----CCGUVB1N3_NLM33_RS38395_871871_872075_integrase_Unknown
+|                  |  |  |  |     +--| (56)
+|                  |  |  |  |     |  +--CCGUVB23_NLN62_RS10945_726628_727627_tyrosine-type
+|                  |  |  |  |  +--| (54)
+|                  |  |  |  |  |  +--CCGUVB4N_NLM31_RS07465_564529_565540_tyrosine-type
+|                  |  |  |  +--| (33)
+|                  |  |  |     |                  +--CCGUVB14_NLM32_RS08595_633753_634590_site-specific
+|                  |  |  |     |              +---| (54)
+|                  |  |  |     |              |   |          +--CCGUVB14_NLM32_RS06605_175153_175822_tyrosine-type
+|                  |  |  |     |              |   |   +------| (98)
+|                  |  |  |     |              |   |   |      +--CCGUVB4N_NLM31_RS05915_186294_186963_tyrosine-type
+|                  |  |  |     |              |   +---| (69)
+|                  |  |  |     |              |       +--CCGB12__NLM27_RS26000_334920_335490_DDE-type
+|                  |  |  |     |           +--| (45)
+|                  |  |  |     |           |  |              +**CCGUVB14_NLM32_RS08170_549641_549995_phage
+|                  |  |  |     |           |  |           +**|
+|                  |  |  |     |           |  |           |  +**CCGUVB14_NLM32_RS07050_276747_277608_tyrosine-type
+|                  |  |  |     |           |  |        +**|
+|                  |  |  |     |           |  |        |  +**CCGUVB14_NLM32_RS07965_509527_510388_tyrosine-type
+|                  |  |  |     |           |  |     +--|
+|                  |  |  |     |           |  |     |  +**CCGUVB14_NLM32_RS10020_957936_958797_tyrosine-type
+|                  |  |  |     |           |  |  +--| (99)
+|                  |  |  |     |           |  |  |  +--CCGUVB14_NLM32_RS09295_788638_788992_phage
+|                  |  |  |     |           |  +--| (74)
+|                  |  |  |     |           |     +--CCGUVB1N3_NLM33_RS36290_401098_401959_tyrosine-type
+|                  |  |  |     |     +-----| (48)
+|                  |  |  |     |     |     +--CCGUVB14_NLM32_RS08960_719432_720293_tyrosine-type
+|                  |  |  |     |  +--| (34)
+|                  |  |  |     |  |  |  +--CCGUVB14_NLM32_RS08735_672013_673018_tyrosine-type
+|                  |  |  |     |  |  +--| (98)
+|                  |  |  |     |  |     +--CCGUVB14_NLM32_RS09240_776261_777266_tyrosine-type
+|                  |  |  |     +--| (31)
+|                  |  |  |        |  +--CCGUVB14_NLM32_RS08895_706576_707581_tyrosine-type
+|                  |  |  |        +--| (97)
+|                  |  |  |           +--CCGUVB1N3_NLM33_RS37250_627028_628033_tyrosine-type
+|                  |  +--| (52)
+|                  |     +--CCGUVB14_NLM32_RS08130_541352_542378_tyrosine-type
+|               +--| (45)
+|               |  |        +--CCGUVB14_NLM32_RS08120_539164_540382_tyrosine-type
+|               |  |     +--| (49)
+|               |  |     |  |  +-----CCGUVB23_NLN62_RS08455_167100_167466_site-specific
+|               |  |     |  +--| (59)
+|               |  |     |     +--CCGUVB23_NLN62_RS12515_1087755_1089918_integrase_WP_254108995.1
+|               |  |  +--| (32)
+|               |  |  |  |  +-----CCGUVB14_NLM32_RS08125_540378_541356_tyrosine-type
+|               |  |  |  +--| (71)
+|               |  |  |     +--CCGUVB23_NLN62_RS10950_727623_728559_tyrosine-type
+|               |  +--| (53)
+|               |     |    +--CCGUVB4N_NLM31_RS07480_566885_567422_site-specific
+|               |     +----| (67)
+|               |          |       +--CCGB01_NLM25_RS08420_269568_269826_integrase
+|               |          +-------| (87)
+|               |                  +--CCGB20_NLM15_RS07985_262487_262745_integrase
+|         +-----| (62)
+|         |     +--CCGUVB4N_NLM31_RS42965_562414_562546_site-specific
++---------| (100)
+          |  +--CCGUVB14_NLM32_RS08745_674003_675275_tyrosine-type
+          +--| (98)
+             +--CCGUVB14_NLM32_RS09250_778251_779523_tyrosine-type
+
+
+Consensus tree in newick format: 
+
+(CCGB01_NLM25_RS08180_218993_219453_integrase:0.0000020770,CCGB20_NLM15_RS07775_215467_215927_integrase:0.0000020770,((((((((((((((((((((CCGB01_NLM25_RS07365_25189_26238_integrase:0.0000020770,CCGB20_NLM15_RS06975_23307_24356_integrase:0.0000020770)91:0.0000022173,(CCGB20_NLM15_RS08455_373103_374283_tyrosine-type:1.1422157394,CCGUVB4N_NLM31_RS07475_566538_566859_tyrosine-type:1.0176878270)69:0.3111116428)69:1.5035296711,CCGUVB1N3_NLM33_RS37255_628029_629394_tyrosine-type:0.0560789694)59:0.6812715707,(((((((CCGUVB23_NLN62_RS08825_240578_241487_tyrosine-type:1.3019230683,((CCGUVB14_NLM32_RS45755_673014_673641_tyrosine-type:0.0000020770,CCGUVB14_NLM32_RS45770_777262_777889_tyrosine-type:0.0000020770)99:0.9531245002,CCGB12__NLM27_RS25890_308219_308399_integrase_Unknown:0.7540841089)80:0.1975220294)78:0.3647359497,CCGUVB1N3_NLM33_RS38720_939836_940235_tyrosine-type:1.4136908285)76:0.0860269383,CCGB12__NLM27_RS25930_320262_321034_integrase:1.6112098310)75:0.0000020563,CCGUVB4N_NLM31_RS09880_1110534_1110687_integrase:0.0000020835)79:0.0087780877,CCGUVB14_NLM32_RS10865_1143506_1143659_integrase:0.0000020835)80:0.0931484307,(CCGUVB14_NLM32_RS08600_634745_634901_integrase:0.0000020770,CCGUVB4N_NLM31_RS09720_1078829_1078982_integrase:0.0000020770)71:0.0000020050)71:0.3313169846,((CCGUVB14_NLM32_RS07405_365125_365855_DDE-type:0.0000020770,CCGUVB4N_NLM31_RS06685_367985_368715_DDE-type:0.0000020770)98:0.7875227061,CCGUVB1N3_NLM33_RS35325_168005_169772_site-specific:0.7112978578)76:0.6506663683)40:0.4413961077)58:0.7356891552,CCGE-LA001__BCCGELA001_RS30055_431645_432639_integrase_Unknown:0.0000021818)43:0.0447912095,CCGUVB4N_NLM31_RS07455_562822_563578_tyrosine-type:1.4226015500)57:0.4106221729,(CCGB12__NLM27_RS25035_70281_70965_tyrosine-type:0.8959467843,CCGUVB23_NLN62_RS08870_248950_249331_integrase_Unknown:1.0813042739)50:0.1078644476)55:0.4683742228,((CCGB12__NLM27_RS26595_483997_484351_DDE-type:0.3543238071,CCGUVB1N3_NLM33_RS36125_358732_359449_tyrosine-type:1.2061213782)83:0.7306121104,CCGUVB23_NLN62_RS12525_1091695_1093117_site-specific:0.4468240475)62:0.1007592872)51:0.3384496950,((CCGE-LA001__BCCGELA001_RS30845_618606_619212_integrase:0.4455774131,CCGB12__NLM27_RS26425_433549_434116_integrase:0.8660426375)41:0.0000027343,(CCGB01_NLM25_RS08515_293897_294399_DDE-type:0.0000020770,CCGB20_NLM15_RS08090_286798_287300_DDE-type:0.0000020770)97:0.9563094588)72:0.0918108968)51:0.4176154208,(CCGUVB14_NLM32_RS06320_117514_117889_tyrosine-type:0.3927455760,((CCGUVB14_NLM32_RS08175_549991_550480_tyrosine-type:0.0000020770,CCGUVB14_NLM32_RS09290_788153_788642_tyrosine-type:0.0000020770)99:0.7164589929,CCGUVB23_NLN62_RS07890_39013_39478_tyrosine-type:1.0094603639)78:0.4727397996)66:0.1350089473)32:0.1829346213,CCGUVB23_NLN62_RS08070_78556_78955_integrase:1.0291813927)61:0.5987964284,CCGE-LA001__BCCGELA001_RS30555_539631_540858_phage:0.0000028192)56:0.4220077446,CCGUVB1N3_NLM33_RS35330_169764_170907_tyrosine-type:0.6774812850)44:0.2044288492,CCGUVB1N3_NLM33_RS34480_4630_5968_integrase:1.3228873010)43:0.0805813681,((CCGUVB23_NLN62_RS08145_105636_106653_integrase:1.9313920905,CCGUVB4N_NLM31_RS07460_563574_564537_tyrosine-type:0.0000029262)55:0.8295593442,CCGUVB1N3_NLM33_RS37260_629390_630620_tyrosine-type:0.8964991462)42:0.1908363653)33:0.3601021633,(CCGUVB23_NLN62_RS08470_170717_171602_tyrosine-type:0.0000024603,(CCGUVB14_NLM32_RS07415_367246_367489_integrase:0.0000020770,CCGUVB4N_NLM31_RS06695_370105_370348_integrase:0.0000020770)99:1.5870464374)52:0.5827580299)48:0.3142176563,((CCGUVB23_NLN62_RS10955_728555_729791_tyrosine-type:1.2342113619,((((CCGE-LA001__BCCGELA001_RS30140_451937_452521_integrase_Unknown:0.1169241316,((CCGUVB23_NLN62_RS07885_38502_38703_site-specific:0.5168116178,CCGUVB1N3_NLM33_RS38545_902354_902858_integrase:0.6149771063)88:0.4344346905,CCGUVB1N3_NLM33_RS38395_871871_872075_integrase_Unknown:1.1789791337)43:0.4157254715)65:1.2337207139,CCGUVB23_NLN62_RS10945_726628_727627_tyrosine-type:0.1777423682)56:0.3081373346,CCGUVB4N_NLM31_RS07465_564529_565540_tyrosine-type:0.1104002296)54:0.2036570674,(((((CCGUVB14_NLM32_RS08595_633753_634590_site-specific:0.6048619619,((CCGUVB14_NLM32_RS06605_175153_175822_tyrosine-type:0.0000020770,CCGUVB4N_NLM31_RS05915_186294_186963_tyrosine-type:0.0000020770)98:1.5637427460,CCGB12__NLM27_RS26000_334920_335490_DDE-type:0.0000022053)69:0.9852617815)54:0.8268336312,(((((CCGUVB14_NLM32_RS08170_549641_549995_phage:0.0000000000,CCGUVB14_NLM32_RS07050_276747_277608_tyrosine-type:0.0000000000):0.0000000000,CCGUVB14_NLM32_RS07965_509527_510388_tyrosine-type:0.0000000000):0.0000000000,CCGUVB14_NLM32_RS10020_957936_958797_tyrosine-type:0.0000000000):0.0000020770,CCGUVB14_NLM32_RS09295_788638_788992_phage:0.0000020770)99:0.0411320038,CCGUVB1N3_NLM33_RS36290_401098_401959_tyrosine-type:0.0230762437)74:0.0000022822)45:0.2132740965,CCGUVB14_NLM32_RS08960_719432_720293_tyrosine-type:0.0000020847)48:1.2335568962,(CCGUVB14_NLM32_RS08735_672013_673018_tyrosine-type:0.0000020770,CCGUVB14_NLM32_RS09240_776261_777266_tyrosine-type:0.0000020770)98:0.1947319408)34:0.0893837960,(CCGUVB14_NLM32_RS08895_706576_707581_tyrosine-type:0.0000020770,CCGUVB1N3_NLM33_RS37250_627028_628033_tyrosine-type:0.0089572066)97:0.4313904243)31:0.0822086623)33:0.0784589308)33:0.1397042146,CCGUVB14_NLM32_RS08130_541352_542378_tyrosine-type:0.0468464033)52:0.6832369542)44:0.2153914158,(((CCGUVB14_NLM32_RS08120_539164_540382_tyrosine-type:0.5634587365,(CCGUVB23_NLN62_RS08455_167100_167466_site-specific:1.3289729542,CCGUVB23_NLN62_RS12515_1087755_1089918_integrase_WP_254108995.1:0.4731930248)59:0.5680908282)49:0.3330748865,(CCGUVB14_NLM32_RS08125_540378_541356_tyrosine-type:1.4104160680,CCGUVB23_NLN62_RS10950_727623_728559_tyrosine-type:0.0000026892)71:0.3459056016)32:0.3017897895,(CCGUVB4N_NLM31_RS07480_566885_567422_site-specific:0.0000029130,(CCGB01_NLM25_RS08420_269568_269826_integrase:0.0026967869,CCGB20_NLM15_RS07985_262487_262745_integrase:0.0060480036)87:1.7305197026)67:1.0393521485)53:0.3620774631)45:0.2363788217,CCGUVB4N_NLM31_RS42965_562414_562546_site-specific:0.0000020523)62:1.2953251036,(CCGUVB14_NLM32_RS08745_674003_675275_tyrosine-type:0.0000020770,CCGUVB14_NLM32_RS09250_778251_779523_tyrosine-type:0.0000020770)98:0.0000023411)100:2.1918131118);
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 23 01:23:41 2023
+Total CPU time used: 178.408 seconds (0h:2m:58s)
+Total wall-clock time used: 180.601542 seconds (0h:3m:0s)
+
